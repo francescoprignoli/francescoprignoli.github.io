@@ -521,6 +521,14 @@ summary {
   font-size: 12px;
   line-height: 1.9;
 }
+.timeline-group + .timeline-group {
+  margin-top: 30px;
+}
+.timeline-group > h3 {
+  font-size: 13px;
+  font-weight: 550;
+  margin-bottom: 20px;
+}
 .job {
   display: grid;
   grid-template-columns: 79px 1fr;
@@ -537,7 +545,8 @@ summary {
   color: var(--muted);
   padding-top: 1px;
 }
-.job h3 {
+.job h4 {
+  margin: 0;
   font-size: 14px;
   line-height: 1.6;
   font-weight: 500;
@@ -547,6 +556,20 @@ summary {
   font-size: 12px;
   line-height: 1.8;
   margin-top: 5px;
+}
+.job-role {
+  margin-top: 13px;
+}
+.job-role h5 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 0;
+}
+.job-role time {
+  display: block;
+  font-size: 10px;
+  margin-top: 2px;
 }
 .talks {
   border-block: 1px solid var(--line);
@@ -790,7 +813,7 @@ summary {
     grid-template-columns: 76px 1fr;
     gap: 15px;
   }
-  .job h3 {
+  .job h4 {
     font-size: 14px;
   }
   .job p {

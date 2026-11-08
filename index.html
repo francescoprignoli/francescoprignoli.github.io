@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&amp;display=swap"
       rel="stylesheet"
     />
-    <link href="portfolio.css?v=c9bf8ada15" rel="stylesheet" />
+    <link href="portfolio.css?v=bbac3b5941" rel="stylesheet" />
     <script defer="" src="portfolio.js?v=8b424ca63e"></script>
   </head>
   <body>
@@ -522,7 +522,7 @@
           <article class="project">
             <div class="video-frame">
               <button
-                aria-label="Play: ADAS &amp; predictive motion control"
+                aria-label="Play: Predictive path following for urban driving"
                 class="video-play"
                 data-video="_s9hHaUFprI"
                 type="button"
@@ -548,7 +548,7 @@
             </div>
             <div class="project-copy">
               <p class="project-category">ADAS · Vehicle motion control</p>
-              <h3>ADAS &amp; predictive motion control</h3>
+              <h3>Predictive path following for urban driving</h3>
               <p>
                 Developed decoupled longitudinal and lateral MPC controllers that exploit path
                 preview to combine accurate tracking with driving comfort.
@@ -581,21 +581,16 @@
               <details>
                 <summary>Technical details</summary>
                 <div class="details">
-                  <strong> Control architecture </strong>
+                  <strong> Related vehicle validation </strong>
                   <p>
-                    Decoupled longitudinal and lateral model predictive controllers handle vehicle
-                    speed and path following.
+                    During my research-assistant period at UNIMORE, I collaborated with Hipert on
+                    path-following implementation and validation on full-scale passenger vehicles.
                   </p>
-                  <strong> Path preview and comfort </strong>
+                  <strong> Thesis background </strong>
                   <p>
-                    The controllers use information about the path ahead to anticipate upcoming
-                    geometry while accounting for driving comfort.
-                  </p>
-                  <strong> Background </strong>
-                  <p>
-                    The demonstration follows the implementation described in my master’s thesis,
-                    <i> Rapid Control Prototyping of an L2+ Highway Assist System </i>
-                    , completed during an internship in Maserati’s Virtual Engineering team.
+                    The control approach is described in my master’s thesis,
+                    <i>Rapid Control Prototyping of an L2+ Highway Assist System</i>, completed in
+                    Maserati’s Virtual Engineering team.
                   </p>
                 </div>
               </details>
@@ -637,7 +632,8 @@
             <time> 2026 </time>
             <div>
               <h3>
-                Predictive Motion Planning and Control for Autonomous Racing Under Regulations
+                Predictive Motion Planning and Control for Autonomous Racing Under Regulations: From
+                Compliance to Strategic Awareness
               </h3>
               <p>Ph.D. dissertation · University of Bologna</p>
             </div>
@@ -706,65 +702,85 @@
             </p>
           </div>
           <div class="timeline">
-            <article class="job">
-              <time> 2025—Now </time>
-              <div>
-                <h3>Motion Planning &amp; Control Engineer · Hipert</h3>
-                <p>
-                  Production-grade planning and control algorithms for autonomous ground vehicles.
-                </p>
-              </div>
-            </article>
-            <article class="job">
-              <time> 2022—2026 </time>
-              <div>
-                <h3>Ph.D. · UNIBO &amp; UNIMORE</h3>
-                <p>
-                  Predictive, regulation-aware, and game-theoretic planning for autonomous racing.
-                </p>
-              </div>
-            </article>
-            <article class="job">
-              <time> 2024—2025 </time>
-              <div>
-                <h3>Visiting Researcher · UC Berkeley</h3>
-                <p>
-                  Research at the Model Predictive Control Lab and experimental validation on BARC
-                  vehicles.
-                </p>
-              </div>
-            </article>
-            <article class="job">
-              <time> 2023—2024 </time>
-              <div>
-                <h3>Planning &amp; Control Lead · Unimore Racing</h3>
-                <p>
-                  Subsystem leadership, architecture, implementation, integration, and track
-                  deployment.
-                </p>
-              </div>
-            </article>
-            <article class="job">
-              <time title="September 2022–August 2023"> 2022—2023 </time>
-              <div>
-                <h3>Motion Planning &amp; Control Engineer · Unimore Racing</h3>
-                <p>
-                  Data analysis and system identification for planning and control development,
-                  alongside a radar-based emergency pull-over controller for localization failures.
-                </p>
-              </div>
-            </article>
-            <article class="job">
-              <time> 2021 </time>
-              <div>
-                <h3>Master’s Thesis Intern — ADAS · Maserati</h3>
-                <p>
-                  Designed and prototyped an L2+ highway-assistance system, including adaptive
-                  cruise control, lane centering, and automated lane changes, from requirements
-                  definition through real-time simulator testing.
-                </p>
-              </div>
-            </article>
+            <section class="timeline-group" aria-labelledby="professional-experience">
+              <h3 id="professional-experience">Professional experience</h3>
+              <article class="job">
+                <time title="November 2025–present">2025—Now</time>
+                <div>
+                  <h4>Motion Planning &amp; Control Engineer · Hipert</h4>
+                  <p>
+                    Develop production-grade C++ algorithms for path following and collision
+                    avoidance across AGVs, trucks, forklifts, and mowers.
+                  </p>
+                </div>
+              </article>
+              <article class="job">
+                <time title="September 2022–September 2024">2022—2024</time>
+                <div>
+                  <h4>UNIMORE Racing</h4>
+                  <div class="job-role">
+                    <h5>Motion Planning &amp; Control Lead</h5>
+                    <time title="September 2023–September 2024">2023—2024</time>
+                    <p>
+                      Led subsystem architecture, implementation, integration, and track deployment.
+                    </p>
+                  </div>
+                  <div class="job-role">
+                    <h5>Motion Planning &amp; Control Engineer</h5>
+                    <time title="September 2022–August 2023">2022—2023</time>
+                    <p>
+                      Data analysis and system identification for planning and control development,
+                      alongside a radar-based emergency pull-over controller for localization
+                      failures.
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="job">
+                <time title="September 2021–September 2022">2021—2022</time>
+                <div>
+                  <h4>Research Assistant · UNIMORE</h4>
+                  <p>
+                    Researched MPC-based motion planning for urban driving and collaborated with
+                    Hipert on path-following implementation and validation on full-scale passenger
+                    vehicles.
+                  </p>
+                </div>
+              </article>
+              <article class="job">
+                <time title="February–June 2021">2021</time>
+                <div>
+                  <h4>Master’s Thesis Intern — ADAS · Maserati</h4>
+                  <p>
+                    Designed and prototyped an L2+ highway-assistance system, including adaptive
+                    cruise control, lane centering, and automated lane changes, from requirements
+                    definition through real-time simulator testing.
+                  </p>
+                </div>
+              </article>
+            </section>
+            <section class="timeline-group" aria-labelledby="education-research">
+              <h3 id="education-research">Education &amp; research</h3>
+              <article class="job">
+                <time title="November 2022–March 2026">2022—2026</time>
+                <div>
+                  <h4>Ph.D. · UNIBO &amp; UNIMORE</h4>
+                  <p>
+                    Predictive, regulation-aware, and game-theoretic planning for autonomous racing.
+                  </p>
+                </div>
+              </article>
+              <article class="job">
+                <time title="September 2024–June 2025">2024—2025</time>
+                <div>
+                  <h4>Visiting Researcher · UC Berkeley</h4>
+                  <p>
+                    Research at the Model Predictive Control Lab and experimental validation on BARC
+                    vehicles.
+                  </p>
+                </div>
+              </article>
+            </section>
           </div>
         </div>
         <details class="talks">
